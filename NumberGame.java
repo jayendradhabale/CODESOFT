@@ -1,12 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Number Guessing Game
- * - Random number between 1–100
- * - Max 7 attempts per round
- * - Multiple rounds with score tracking
- */
 public class NumberGame {
 
     static final int MIN        = 1;
@@ -22,7 +16,7 @@ public class NumberGame {
         int totalGuesses = 0;
 
         System.out.println("╔══════════════════════════════════╗");
-        System.out.println("║      NUMBER GUESSING GAME        ║");
+        System.out.println("║      NUMBER GUESSING GAME              ║");
         System.out.println("╚══════════════════════════════════╝");
         System.out.printf("Guess a number between %d and %d.%n", MIN, MAX);
         System.out.printf("You have %d attempts per round.%n%n", MAX_TRIES);
@@ -86,7 +80,7 @@ public class NumberGame {
             System.out.println();
         }
 
-        // ── Final scoreboard ──────────────────────────────────────
+        //  Final scoreboard 
         System.out.println("╔══════════════════════════════════╗");
         System.out.println("║           FINAL SCORE            ║");
         System.out.println("╚══════════════════════════════════╝");
